@@ -24,11 +24,13 @@
 			
 			
 			<div id="site-generator">
-			
-			
 				<?php do_action( 'twentyeleven_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>" rel="generator">WordPress Powered</a> <br/>
-				<a href="http://getrepost.com" title="Twenty Eleven Repost">Theme for the repost</a>
+                (C) 2011 REPOST &nbsp
+				<a href="http://getrepost.com/home" title="Repost Home">HOME</a>&nbsp
+				<a href="http://getrepost.com/getrepost" title="GetRepost">GET REPOST</a> &nbsp
+				<a href="http://getrepost.com/legal" title="Repost legal">LEGAL</a>&nbsp
+				<a href="http://getrepost.com/support" title="Repost support">SUPPORT</a>&nbsp
+				<a href="http://getrepost.com/contact" title="Repost contact">CONTACT</a>
 			</div>
 			
 	</footer><!-- #colophon -->
