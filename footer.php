@@ -28,7 +28,7 @@
 			
 				<?php do_action( 'twentyeleven_credits' ); ?>
 				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>" rel="generator">WordPress Powered</a> <br/>
-				<a href="http://enile8.org" title="Twenty Eleven Child Theme">Theme by enile8</a>
+				<a href="http://getrepost.com" title="Twenty Eleven Repost">Theme for the repost</a>
 			</div>
 			
 	</footer><!-- #colophon -->

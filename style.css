@@ -193,7 +193,7 @@ body {
 
 /* One column */
 .one-column #page {
-	max-width: 690px;
+	max-width: 960px;
 }
 .one-column #content {
 	margin: 0 7.6%;
@@ -526,7 +526,6 @@ a:hover {
 }
 #branding img {
 	
-	width:100%;
 }
 
 
@@ -545,8 +544,12 @@ a:hover {
 	clear: both;
 	display: block;
 	float: left;
-	margin: 0 auto 6px;
-	width: 100%;
+	margin: 0 auto;
+    width: 100%;
+}
+#access .repost-brand {
+	margin: 0 0 0 -0.8125em;
+	padding-left: 0;
 }
 #access ul {
 	font-size: 13px;
@@ -555,7 +558,7 @@ a:hover {
 	padding-left: 0;
 }
 #access li {
-	float: left;
+	float: right;
 	position: relative;
 }
 #access a {
@@ -596,7 +599,7 @@ a:hover {
 #access li:hover > a,
 #access ul ul :hover > a,
 #access a:focus {
-	background: #efefef;
+	 background: #efefef; 
 }
 #access li:hover > a,
 #access a:focus {
@@ -612,7 +615,8 @@ a:hover {
 }
 #access .current_page_item > a,
 #access .current_page_ancestor > a {
-	font-weight: bold;
+    /* text-decoration: underline;  Repost Mod */
+    border-bottom: 5px solid lime;
 }
 
 /* Search Form */
