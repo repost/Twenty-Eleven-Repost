@@ -1325,15 +1325,17 @@ h1.showcase-heading {
 }
 #appfront .appfront-page-0 {
     float: left;
-    width: 200px;
+    width: 31%;
+    padding-right: 3%;
 }
 #appfront .appfront-page-1 {
-    float: center;
-    width: 200px;
+    float: left;
+    width: 31%;
+    padding-right: 3%;
 }
-#appfront .appfront-page-1 {
+#appfront .appfront-page-2 {
     float: right;
-    width: 200px;
+    width: 31%;
 }
 #appfront .appfront-heading {
 	color: #666;
@@ -1349,7 +1351,6 @@ h1.showcase-heading {
 	font-weight: 500;
 	letter-spacing: 0.1em;
 	line-height: 2.6em;
-	text-transform: uppercase;
 }
 /* Intro */
 article.intro {

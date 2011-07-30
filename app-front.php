@@ -24,7 +24,7 @@ get_header(); ?>
 					 * If we have content for this page, let's display it.
 					 */
 					if ( '' != get_the_content() )
-						get_template_part( 'content', 'intro' );
+						get_template_part( 'content', 'hometop' );
 				?>
 
 				<div id="appfront">
@@ -50,5 +50,4 @@ get_header(); ?>
 				</div><!-- .widget-area -->
 			</div><!-- #content -->
 		</div><!-- #primary -->
-
 <?php get_footer(); ?>
