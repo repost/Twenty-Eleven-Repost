@@ -1321,7 +1321,12 @@ h1.showcase-heading {
 
 /* =Application Front
 ----------------------------------------------- */
+#appfront div {
+}
 #appfront {
+	padding: 0 3%;
+	margin: -1.855em -5.9% 1.625em;
+    width: 100%;
 }
 #appfront .appfront-page-0 {
     float: left;
