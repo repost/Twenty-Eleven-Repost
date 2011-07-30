@@ -36,7 +36,7 @@ get_header(); ?>
                      $page_count = 0;
                      while ($page_query->have_posts()) { $page_query->the_post();
                 ?>
-                    <div class="appfront-page-<?php $page_count?>"> 
+                    <div class="appfront-page-<?php echo $page_count?>"> 
                         <h1 class="appfront-heading"><?php the_title(); ?>></h1>
                         <div class="appfront-excerpt">
                             <?php the_excerpt(); ?>
@@ -48,7 +48,6 @@ get_header(); ?>
                      wp_reset_postdata();  // Restore global post data
 				?>
 				</div><!-- .widget-area -->
-
 			</div><!-- #content -->
 		</div><!-- #primary -->
 

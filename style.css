@@ -1319,6 +1319,38 @@ h1.showcase-heading {
 	text-transform: uppercase;
 }
 
+/* =Application Front
+----------------------------------------------- */
+#appfront {
+}
+#appfront .appfront-page-0 {
+    float: left;
+    width: 200px;
+}
+#appfront .appfront-page-1 {
+    float: center;
+    width: 200px;
+}
+#appfront .appfront-page-1 {
+    float: right;
+    width: 200px;
+}
+#appfront .appfront-heading {
+	color: #666;
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	line-height: 2.6em;
+	text-transform: uppercase;
+}
+#appfront .appfront-excerpt {
+	color: #666;
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	line-height: 2.6em;
+	text-transform: uppercase;
+}
 /* Intro */
 article.intro {
 	background: #f9f9f9;
