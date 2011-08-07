@@ -26,7 +26,8 @@ get_header(); ?>
 					if ( '' != get_the_content() )
 						get_template_part( 'content', 'hometop' );
 				?>
-
+                <br>
+                <br>
 				<div id="appfront">
 				<?php
                     /**
