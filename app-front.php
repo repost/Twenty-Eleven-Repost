@@ -33,7 +33,7 @@ get_header(); ?>
                     /**
                      * Loop through children pages and create little summaries
                      */
-                     $page_query = new WP_Query(array('showposts' => 3, 'post_parent' => 'the_ID()', 'post_type' => 'page'));
+                     $page_query = new WP_Query(array('showposts' => 3, 'post_parent' => get_the_ID(), 'post_type' => 'page'));
                      $page_count = 0;
                      while ($page_query->have_posts()) { $page_query->the_post();
                 ?>
