@@ -1350,9 +1350,9 @@ h1.showcase-heading {
 	line-height: 2.6em;
 	text-transform: uppercase;
 }
-#appfront .appfront-excerpt {
+#appfront .appfront-excerpt p{
 	color: #666;
-	font-size: 12px;
+	font-size: medium;
 	font-weight: 500;
 	letter-spacing: 0.1em;
 	line-height: 1.8em;
